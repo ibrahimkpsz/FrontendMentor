@@ -1,0 +1,25 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+#card {
+    width: 375px;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card-img img{
+    width: 330px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}

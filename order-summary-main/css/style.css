@@ -1,0 +1,51 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#card {
+    width: 375px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.card-img-top img {
+    width: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#btn1 {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 310px;
+    box-shadow: 2px 6px 10px hsla(245, 75%, 52%, 0.267);
+    margin-bottom: 13px;
+    padding: 10px;
+}
+
+#btn1:hover {
+    background-color: hsla(245, 75%, 52%, 0.76);
+    border: none;
+    padding: 10px;
+}
+
+
+#btn2 {
+    background-color: transparent;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#btn2:hover {
+    color: hsl(223, 47%, 23%) !important;
+    border: none;
+}

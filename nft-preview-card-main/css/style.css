@@ -1,0 +1,44 @@
+* {
+     font-family: 'Outfit', sans-serif;
+}
+
+body {
+     background-color: hsl(217, 54%, 11%);
+}
+
+#main-card {
+     width: 375px;
+     background-color: hsl(216, 50%, 16%);
+     border-radius: 15px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% , -50%);
+}
+
+#main-card-img {
+     padding: 20px;
+     border-radius: 30px;
+}
+
+#col1 {
+     color: hsl(178, 100%, 50%);
+     font-weight: 600;
+}
+
+#col2 {
+     color: hsl(215, 51%, 70%);
+}
+
+#main-card-footer img{
+     width: 40px;
+}
+
+#main-card-footer {
+     color: hsl(215, 51%, 70%);
+     padding: 20px;
+}
+
+#main-card-footer span{
+     color: hsl(0, 0%, 100%);
+}
